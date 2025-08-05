@@ -4,7 +4,7 @@ Group Members:
 Mohamed Hatem Moneir Mansour Elshekh - 393891
 Roshan Pandey - 395865
 Kamana Thapa - 392322
-[Member 4 Name] - [Member 4 ID]
+Sejal Pradhan - 396928
 """
 
 # 1a: Check if three numbers can form a triangle
