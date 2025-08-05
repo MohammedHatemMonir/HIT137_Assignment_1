@@ -19,7 +19,8 @@ def get_int_from_user(name): #function that takes input from user and CHECKS if 
         try:
             user_input = input(str(name)) #write a custom message to the user
             try:
-                val = float(user_input)
+                val = float(user_input) #Round the float numbers to get an int (without breaking the loop to make it more smooth for the user)
+                user_input = round(val)
             except:
                 pass
 
