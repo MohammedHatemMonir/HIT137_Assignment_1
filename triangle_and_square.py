@@ -21,6 +21,7 @@ def get_int_from_user(name): #function that takes input from user and CHECKS if 
         except:
             print("That's not a number! Please enter a valid, correct number.")
             #Do A while loop here to get the number
+
 print("Triangle Checker")
 x = get_int_from_user("Enter First Number: ")
 y = get_int_from_user("Enter Second Number: ")
@@ -31,8 +32,8 @@ if can_form_triangle(x, y, z):
 else:
     print("NO, these three lengths CANNOT form a triangle.")
 
-# 1b: Print square of given size
 
+# 1b: Print square of given size
 print("\nSquare Drawer")
 size = int(input("Enter the size of the square: "))
 
