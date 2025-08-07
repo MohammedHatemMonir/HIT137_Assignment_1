@@ -29,10 +29,10 @@ def get_int_from_user(name): #function that takes input from user and CHECKS if 
 
 size = 0
 
-while size <= 0: #Make sure that the size is greater than 0 before drawing
+while size <= 0 or size > 100 : #Make sure that the size is greater than 0 before drawing
     size = get_int_from_user("Enter the size of the square: ")
-    if size <= 0:
-        print("Please enter a number of 1 or more.")
+    if size <= 0 or size > 100:
+        print("Please enter a number of 1 or more and less than 100.")
 
 
 for i in range(size): #make a loop based on the number we have taken from the user
