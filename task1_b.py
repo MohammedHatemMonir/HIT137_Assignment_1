@@ -1,0 +1,53 @@
+"""
+Group Name: Sydney 11
+Group Members:
+Mohamed Hatem Moneir Mansour Elshekh - 393891
+Roshan Pandey - 395865
+Kamana Thapa - 392322
+Sejal Pradhan - 396928
+"""
+
+
+#This function was also used in task-1, It is very generic so I used it here aswell -Mohamed
+def get_int_from_user(name): #function that takes input from user and CHECKS if it's int
+    isNumber = False #Variable to keep track wether we have a number or not
+    while isNumber == False: #This while loop keeps going until we have a number.
+        try:
+            user_input = input(str(name)) #write a custom message to the user
+            try:
+                val = float(user_input) #Round the float numbers to get an int (without breaking the loop to make it more smooth for the user)
+                user_input = round(val)
+            except:
+                pass
+
+            val = int(user_input) #if this did not go to the except, we have got a valid number
+            isNumber = True #mark that we got a number
+            return val #Return the number and exit the while loop
+        except:
+            print("That's not a number! Please enter a valid, correct number.")
+            #Do A while loop here to get the number
+
+size = 0
+
+while size <= 0:
+    size = get_int_from_user("Enter the size of the square: ")
+    if size <= 0:
+        print("Please enter a number of 1 or more.")
+
+
+for i in range(size): #make a loop based on the number we have taken from the user
+
+    if i == 0 or i == size - 1: 
+        print("* " * size)
+    else:
+        print("* " + "  " * (size - 2) + "*")
+
+
+"""
+References:
+Stack overflow.
+https://stackoverflow.com 
+Used stack overflow for syntax correction and suggestions on how to check variable type
+
+
+"""
