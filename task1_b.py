@@ -29,7 +29,7 @@ def get_int_from_user(name): #function that takes input from user and CHECKS if 
 
 size = 0
 
-while size <= 0:
+while size <= 0: #Make sure that the size is greater than 0 before drawing
     size = get_int_from_user("Enter the size of the square: ")
     if size <= 0:
         print("Please enter a number of 1 or more.")
@@ -44,10 +44,7 @@ for i in range(size): #make a loop based on the number we have taken from the us
 
 
 """
-References:
-Stack overflow.
-https://stackoverflow.com 
-Used stack overflow for syntax correction and suggestions on how to check variable type
-
-
+w3schools
+https://www.w3schools.com/python
+Used w2schools for python syntax
 """
