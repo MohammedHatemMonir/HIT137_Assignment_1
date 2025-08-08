@@ -59,7 +59,11 @@ Used stack overflow for syntax correction and suggestions on how to check variab
 
 w3schools
 https://www.w3schools.com/python
-Used w2schools for python syntax
+Used w3schools for python syntax
+
+w3schools
+https://www.w3schools.com/python/python_functions.asp
+used w3schools to learn the functions
 
 Brian McLogan (Youtube)
 https://youtu.be/gSmuLNGpf_E
