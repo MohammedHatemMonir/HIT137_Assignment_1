@@ -55,4 +55,9 @@ for i in range(size): #make a loop based on the number we have taken from the us
 w3schools
 https://www.w3schools.com/python
 Used w2schools for python syntax
+
+w3schools
+https://www.w3schools.com/python/python_functions.asp
+used w3schools to learn the functions
+
 """
