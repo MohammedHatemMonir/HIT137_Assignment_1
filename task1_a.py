@@ -10,7 +10,7 @@ Sejal Pradhan - 396928
 # 1a: Check if three numbers can form a triangle
 
 def can_form_triangle(a, b, c):
-    return a + b > c and a + c > b and b + c > a
+    return a + b > c and a + c > b and b + c > a #boolean expression of the equation that detects wether or not we can create a triangle within givent lengths
 
 
 def get_int_from_user(name): #function that takes input from user and CHECKS if it's int
@@ -31,12 +31,12 @@ def get_int_from_user(name): #function that takes input from user and CHECKS if 
             print("That's not a number! Please enter a valid, correct number.")
             #Do A while loop here to get the number
 
-print("Triangle Checker")
-x = get_int_from_user("Enter First Number: ")
-y = get_int_from_user("Enter Second Number: ")
-z = get_int_from_user("Enter Third Number: ")
+print("Triangle Checker") 
+x = get_int_from_user("Enter First Number: ") #get the first number using the generic function, the parameter in the function is what is displayed to the user
+y = get_int_from_user("Enter Second Number: ") #get the second number
+z = get_int_from_user("Enter Third Number: ") #get the third number
 
-if can_form_triangle(x, y, z):
+if can_form_triangle(x, y, z): #use the function that detects wether or not we can form a triangle, it returns a boolean expression (true or false)
     print("Yes, %d, %d, %d can form a triangle." % (x,y,z))
 else:
     print("NO, %d, %d, %d CANNOT form a triangle." % (x,y,z))
