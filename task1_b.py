@@ -7,6 +7,14 @@ Kamana Thapa - 392322
 Sejal Pradhan - 396928
 """
 
+print(r"""
+  ____                               ____                              
+ / ___|  __ _ _   _  __ _ _ __ ___  |  _ \ _ __ __ ___      _____ _ __ 
+ \___ \ / _` | | | |/ _` | '__/ _ \ | | | | '__/ _` \ \ /\ / / _ \ '__|
+  ___) | (_| | |_| | (_| | | |  __/ | |_| | | | (_| |\ V  V /  __/ |   
+ |____/ \__, |\__,_|\__,_|_|  \___| |____/|_|  \__,_| \_/\_/ \___|_|   
+           |_|                                                         
+        """)    #r in print allows pythin to draw line breaks too, used it to add this text deawing -Mohamed
 
 #This function was also used in task-1, It is very generic so I used it here aswell -Mohamed
 def get_int_from_user(name): #function that takes input from user and CHECKS if it's int

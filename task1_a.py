@@ -7,8 +7,17 @@ Kamana Thapa - 392322
 Sejal Pradhan - 396928
 """
 
-# 1a: Check if three numbers can form a triangle
 
+print(r"""
+  _____     _                   _         ____ _               _             
+ |_   _| __(_) __ _ _ __   __ _| | ___   / ___| |__   ___  ___| | _____ _ __ 
+   | || '__| |/ _` | '_ \ / _` | |/ _ \ | |   | '_ \ / _ \/ __| |/ / _ \ '__|
+   | || |  | | (_| | | | | (_| | |  __/ | |___| | | |  __/ (__|   <  __/ |   
+   |_||_|  |_|\__,_|_| |_|\__, |_|\___|  \____|_| |_|\___|\___|_|\_\___|_|   
+                          |___/                                              
+        """)    #r in print allows pythin to draw line breaks too, used it to add this text deawing -Mohamed
+
+# 1a: Check if three numbers can form a triangle
 def can_form_triangle(a, b, c):
     return a + b > c and a + c > b and b + c > a #boolean expression of the equation that detects wether or not we can create a triangle within givent lengths
 
@@ -55,4 +64,8 @@ Used w2schools for python syntax
 Brian McLogan (Youtube)
 https://youtu.be/gSmuLNGpf_E
 Used his video for the equation to determin if the numbers can form a triangle
+
+Console Text Generator
+https://edukits.co/text-art
+Used this to get the "triangle checker" design at the beginning of the program.
 """
