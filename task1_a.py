@@ -8,7 +8,7 @@ Sejal Pradhan - 396928
 """
 
 
-print(r"""
+print("""
   _____     _                   _         ____ _               _             
  |_   _| __(_) __ _ _ __   __ _| | ___   / ___| |__   ___  ___| | _____ _ __ 
    | || '__| |/ _` | '_ \ / _` | |/ _ \ | |   | '_ \ / _ \/ __| |/ / _ \ '__|
@@ -64,6 +64,10 @@ Used w3schools for python syntax
 w3schools
 https://www.w3schools.com/python/python_functions.asp
 used w3schools to learn the functions
+
+w3schools
+https://www.w3schools.com/python/gloss_python_multi_line_strings.asp
+Multi-line strings, used for printing "triangle checker"
 
 Brian McLogan (Youtube)
 https://youtu.be/gSmuLNGpf_E

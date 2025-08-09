@@ -7,7 +7,7 @@ Kamana Thapa - 392322
 Sejal Pradhan - 396928
 """
 
-print(r"""
+print("""
   ____                               ____                              
  / ___|  __ _ _   _  __ _ _ __ ___  |  _ \ _ __ __ ___      _____ _ __ 
  \___ \ / _` | | | |/ _` | '__/ _ \ | | | | '__/ _` \ \ /\ / / _ \ '__|
@@ -59,5 +59,13 @@ Used w2schools for python syntax
 w3schools
 https://www.w3schools.com/python/python_functions.asp
 used w3schools to learn the functions
+
+w3schools
+https://www.w3schools.com/python/gloss_python_multi_line_strings.asp
+Multi-line strings, used for printing "Square Drawer"
+
+Console Text Generator
+https://edukits.co/text-art
+Used this to get the "Square Drawer" design at the beginning of the program.
 
 """
