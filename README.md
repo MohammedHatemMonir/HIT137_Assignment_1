@@ -41,7 +41,7 @@ Used this to get the "triangle checker" design at the beginning of the program.
 # task1_b
 A program that draws a square based on the number input of the user, Input cheks are made to ensure the software does not break.
 
-References
+References:
 w3schools
 https://www.w3schools.com/python
 Used w2schools for python syntax
