@@ -52,6 +52,8 @@ for i in range(size): #make a loop based on the number we have taken from the us
 
 
 """
+References:
+
 w3schools
 https://www.w3schools.com/python
 Used w2schools for python syntax
